@@ -6,6 +6,13 @@ Please refer to the following publications for more details on PUPbeta and the a
 - Sands et al.
 - Terril et al.
 
+### Dependencies:
+
+```
+install.packages("dplyr")
+install.packages("mclust")
+```
+
 ### Quick start with example
 
 1. Clone or download this repository in your working directory

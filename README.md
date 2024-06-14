@@ -1,6 +1,6 @@
-# Applying the SNOOzzzE Endotype-Profile Model to New Trait Data
+# Applying the SNOOzzzE Endotype-Cluster Model to New Trait Data
 
-This repository contains an end-to-end pipeline for applying a Latent Profile Analysis (LPA) model developed in the SNOOzzzE cohort and apply it to new trait data (derived from routine polysomnography using PUPbeta).
+This repository contains an end-to-end pipeline for applying a Latent Profile Analysis (LPA) model (VVV, 6 profiles) developed in the SNOOzzzE cohort using mclust and apply it to new trait data (derived from routine polysomnography using PUPbeta). The model will assign each observation to one of 6 endotype clusters (technically "profiles"). 
 
 Please refer to the following publications for more details on PUPbeta and the application of the model:
 - Sands et al.
@@ -9,7 +9,7 @@ Please refer to the following publications for more details on PUPbeta and the a
 ### Quick start with example
 
 1. Clone or download this repository in your working directory
-2. Set directory to the newly created folder: `setwd("SNOOzzzE_EndoclusterPipeline/")`
+2. Set directory to the newly created folder: `setwd("SNOOzzzE_Endocluster_LPA_Pipeline/")`
 3. Run `source("apply_EC_model.R")`
 4. Run an example with sample data
 

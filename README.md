@@ -13,7 +13,6 @@ This repository contains an R model and a script to apply it to new data.
 SNOOzzzE_EC_model <- readRDS("SNOOzzzE_Endocluster_Model_VVV_6.rds")
 
 apply_model <- function(new_data) {
-  # Apply the model to new_data
   predictions <- predict(SNOOzzzE_EC_model, new_data)
   return(predictions)
 }
